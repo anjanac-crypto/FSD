@@ -12,10 +12,10 @@ public class CreateOrderRequestDTO {
     @Override
     public String toString() {
         return "CreateOrderRequestDTO{" +
-                "name='" + name + '\'' +
-                ", qty=" + qty +
-                ", price=" + price +
-                '}';
+               "name='" + name + '\'' +
+               ", qty=" + qty +
+               ", price=" + price +
+               '}';
     }
 
     public void setName(String name) {

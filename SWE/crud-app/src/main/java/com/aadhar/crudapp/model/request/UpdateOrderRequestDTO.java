@@ -8,10 +8,10 @@ public class UpdateOrderRequestDTO {
     @Override
     public String toString() {
         return "CreateOrderRequestDTO{" +
-                "name='" + name + '\'' +
-                ", qty=" + qty +
-                ", price=" + price +
-                '}';
+               "name='" + name + '\'' +
+               ", qty=" + qty +
+               ", price=" + price +
+               '}';
     }
 
     public UpdateOrderRequestDTO(String name, Integer qty, Double price) {
